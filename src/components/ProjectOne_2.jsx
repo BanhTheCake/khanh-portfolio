@@ -36,7 +36,7 @@ export default function ProjectOne_2() {
             </div>
     </div>
     <div className="relative flex flex-col items-center w-full">
-            <div className="absolute top-0 left-0 w-full h-full bg-[url('/Images/background_2.png')] bg-contain  bg-top opacity-10 z-0 "></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-[url('./Images/background_2.png')] bg-contain  bg-top opacity-10 z-0 "></div>
             {Images && Images.map((image, index) => (
                 <div className={`flex ${image.isCenter ? "items-center" : "items-end"} justify-center py-10 gap-20 ${image.position === "right" ? "flex-row-reverse" : ""} z-1`} key={index}>
                     <div className={`flex-3 flex`}>
