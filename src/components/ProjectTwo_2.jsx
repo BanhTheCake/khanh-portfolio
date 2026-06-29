@@ -59,7 +59,7 @@ export default function ProjectTwo_2() {
         <div className="max-w-300 mx-auto text-white font-UTM">
         <div className="relative">
           <img className="w-full z-1 relative" src="Images/House.png" alt="Visual Concept" />
-          <video className="absolute top-[50%] left-[25%] w-[50%]  object-cover object-center" src="/Videos/Project2_5.mp4" autoPlay loop muted />
+          <video className="absolute top-[50%] left-[25%] w-[50%]  object-cover object-center" src="Videos/Project2_5.mp4" autoPlay loop muted />
         </div>
           <p className="text-center text-sm uppercase py-2">Mockup for visual led concept</p>
         </div>

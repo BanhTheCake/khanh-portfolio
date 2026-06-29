@@ -4,7 +4,7 @@ export default function Header() {
     <div>
     <div className="flex h-screen flex-col items-center justify-center relative">
     <div className="absolute top-0 left-0 w-full h-full">
-    <video className="w-full h-full object-cover object-center" src="/Videos/Cover.mp4" autoPlay loop muted></video>
+    <video className="w-full h-full object-cover object-center" src="Videos/Cover.mp4" autoPlay loop muted></video>
     <div className="absolute top-0 left-0 w-full h-full opacity-80 bg-linear-to-t from-black to-transparent"></div>
     </div>
     <div className="text-white z-10 flex flex-col">
