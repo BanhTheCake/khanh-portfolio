@@ -1,27 +1,27 @@
 import {PhotoView } from 'react-photo-view';
 
 const MonthImages = [{
-    src: "/Images/Month_1_2.png",
+    src: "Images/Month_1_2.png",
     alt: "Month 1 and 2",
 },
 {
-    src: "/Images/Month_3_4.png",
+    src: "Images/Month_3_4.png",
     alt: "Month 3 and 4",
 },
 {
-    src: "/Images/Month_5_6.png",
+    src: "Images/Month_5_6.png",
     alt: "Month 5 and 6",
 },
 {
-    src: "/Images/Month_7_8.png",
+    src: "Images/Month_7_8.png",
     alt: "Month 7 and 8",
 },
 {
-    src: "/Images/Month_9_10.png",
+    src: "Images/Month_9_10.png",
     alt: "Month 9 and 10",
 },
 {
-    src: "/Images/Month_11_12.png",
+    src: "Images/Month_11_12.png",
     alt: "Month 11 and 12",
 }]
 
@@ -32,8 +32,8 @@ export default function ProjectOne() {
             <h1>Project 1: Hue Dynasty Illustration</h1>
             <div className="flex py-10 px-2 gap-6">
                 <div className="flex-2 flex justify-end items-center">
-                <PhotoView src="/Images/Month_Cover.png">
-                    <img className="h-120" src="/Images/Month_Cover.png" alt="Month Cover" />
+                <PhotoView src="Images/Month_Cover.png">
+                    <img className="h-120" src="Images/Month_Cover.png" alt="Month Cover" />
                 </PhotoView>
                 </div>
                 <div className="flex flex-3 flex-wrap gap-6 items-center justify-center">

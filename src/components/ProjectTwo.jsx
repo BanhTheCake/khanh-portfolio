@@ -8,7 +8,7 @@ export default function ProjectTwo() {
             <div className="flex py-10 px-2 gap-6 items-center
             ">
                 <div className="flex-3 flex flex-col items-center gap-10">
-                    <img className="" src="/Images/Project2_Title.png" alt="Tứ Quý Quang Hoa" />
+                    <img className="" src="Images/Project2_Title.png" alt="Tứ Quý Quang Hoa" />
                     <p className="text-center text-sm ">Illustration for state concept</p>
                 </div>     
                 <div className="text-sm px-2 flex-2">

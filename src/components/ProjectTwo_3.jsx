@@ -20,7 +20,7 @@ export default function ProjectTwo_3() {
     <div>
     <div className="flex items-center gap-10 font-UTM text-white pb-5">
         <div className="flex-3 -mt-30">
-            <img className="w-full" src="/Images/Gate.png" alt="Cổng chào" />
+            <img className="w-full" src="Images/Gate.png" alt="Cổng chào" />
             <p className="text-center uppercase md:-mt-25 -mt-10">ILLUSTRATION FOR GATE CONCEPT</p>
         </div>
         <div className="flex-2 flex flex-col gap-5">
@@ -34,7 +34,7 @@ export default function ProjectTwo_3() {
             <p>The photobooth concept is inspired by the traditional relief carvings and decorative screens of Hue’s royal architecture. Intricate patterns, floral motifs, and ornamental details are reimagined to create an elegant and immersive backdrop that reflects the beauty of Nguyen Dynasty craftsmanship. The layered composition of the relief-inspired elements and the iconic Hue-style screen adds depth and sophistication, offering guests a unique photo experience that celebrates the cultural heritage and artistic identity of the ancient capital.</p>
         </div>
         <div className="flex-3 -mt-10">
-            <img className="w-full" src="/Images/Booth.png" alt="Cổng chào" />
+            <img className="w-full" src="Images/Booth.png" alt="Cổng chào" />
              <p className="text-center uppercase">ILLUSTRATION FOR PHOTOBOOTH CONCEPT</p>
         </div>
     </div>
@@ -55,7 +55,7 @@ export default function ProjectTwo_3() {
         </div>
         <div className="flex flex-col items-center font-UTM text-white pb-10">
             <img className="max-w-300 pb-20" src="Images/BroChure_1.png" alt="Brochure 1" />
-            <img className="max-w-300 pb-10" src="/Images/Brochure_2.png" alt="Brochure 2" />
+            <img className="max-w-300 pb-10" src="Images/Brochure_2.png" alt="Brochure 2" />
             <p className="uppercase">BROCHURE DESIGN</p>
         </div>
         <div className="flex flex-col items-center font-UTM text-white py-10 gap-10">

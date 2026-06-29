@@ -1,14 +1,14 @@
 import AiIcon from "/Images/IconAi.svg"
 
 const Images = [{
-    src: "/Images/buffalo_calf.png",
+    src: "Images/buffalo_calf.png",
     alt: "Con Nghê",
     position: "left",
     text: "The image of the Nghe, a traditional Vietnamese mythical creature, is an important symbol in Nguyen Dynasty art and architecture. It represents loyalty, protection, wisdom, and good fortune. With its graceful appearance and unique decorative details, the Nghe reflects the richness of Vietnamese cultural heritage while conveying a sense of dignity and harmony.",
     title: "Con Nghê",
     isCenter: false
 }, {
-    src: "/Images/Dragon.png",
+    src: "Images/Dragon.png",
     alt: "Con Rồng",
     position: "right",
     text: "The image of the Dragon (Long) is one of the most important symbols in Vietnamese culture, especially during the Nguyen Dynasty. It represents power, prosperity, wisdom, and imperial authority. With its elegant curves and intricate patterns, the dragon reflects the beauty of traditional Vietnamese art and the rich heritage of the royal court.",
@@ -16,7 +16,7 @@ const Images = [{
     isCenter: false
 }, {
 }, {
-    src: "/Images/Phonix.png",
+    src: "Images/Phonix.png",
     alt: "Con Phượng",
     position: "left",
     text: "The image of the Phoenix (Phung) is a symbol of beauty, grace, peace, and prosperity in Vietnamese culture. In Nguyen Dynasty art, the phoenix often represents nobility and harmony. Its elegant feathers and delicate patterns showcase the sophistication of traditional Vietnamese craftsmanship and cultural heritage.",
@@ -50,7 +50,7 @@ export default function ProjectOne_2() {
             ))}
                 <div className={`flex flex-col items-end justify-center py-10 gap-20 max-w-180`}>
                     <div className={`flex-3 flex`}>
-                        <img className="h-full" src="/Images/Tiger.png" alt="Hổ Phù" />
+                        <img className="h-full" src="Images/Tiger.png" alt="Hổ Phù" />
                     </div>
                     <div className={`flex-2 flex flex-col justify-center `}>
                     <h1 className={`font-UTM text-white text-3xl text-center pb-5`}>Hổ Phù</h1>

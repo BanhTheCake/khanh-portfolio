@@ -29,7 +29,7 @@ export default function ProjectTwo_2() {
         </div>
           <div className="relative flex items-center w-full text-white font-UTM py-10 gap-5">
             <div className="flex-3 flex flex-col items-center gap-10">
-              <img className="w-full" src="/Images/NgoMon.png" alt="Concept 2" />
+              <img className="w-full" src="Images/NgoMon.png" alt="Concept 2" />
               <p className="text-center text-sm uppercase">Illustration for state concept</p>
             </div>
             <div className="px-2 flex-2">
@@ -58,7 +58,7 @@ export default function ProjectTwo_2() {
         </div>
         <div className="max-w-300 mx-auto text-white font-UTM">
         <div className="relative">
-          <img className="w-full z-1 relative" src="/Images/House.png" alt="Visual Concept" />
+          <img className="w-full z-1 relative" src="Images/House.png" alt="Visual Concept" />
           <video className="absolute top-[50%] left-[25%] w-[50%]  object-cover object-center" src="/Videos/Project2_5.mp4" autoPlay loop muted />
         </div>
           <p className="text-center text-sm uppercase py-2">Mockup for visual led concept</p>
