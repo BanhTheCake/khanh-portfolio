@@ -38,7 +38,7 @@ export default function ProjectTwo_2() {
             </div>
           </div>
           <div className="flex flex-wrap relative">
-          <div className="absolute bottom-[-15%] left-0 w-full h-full opacity-50 bg-contain bg-top-left bg-[url(./Images/MountainCover.png)] hidden md:block"></div>
+          <div className="absolute bottom-[-15%] left-0 w-full h-full opacity-50 bg-contain bg-top-left bg-[url('../Images/MountainCover.png')] hidden md:block"></div>
           { videoGallery && videoGallery.map((video, _) => (
             <div className="relative flex p-10 md:flex-1/2" key={video.src}>
               <video className="z-1" src={video.video} autoPlay loop muted></video>
