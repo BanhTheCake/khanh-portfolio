@@ -32,7 +32,7 @@ export default function ProjectOne_2() {
             <h1 className="text-3xl text-center pb-4 uppercase">The Illustration </h1>
             <div className="flex items-center gap-2">
             <p className="text-2xl">App Used :</p>
-            <img className="w-12" src={AiIcon} alt="AI" />
+            <img  className="w-12" src={AiIcon} alt="AI" />
             </div>
     </div>
     <div className="relative flex flex-col items-center w-full">

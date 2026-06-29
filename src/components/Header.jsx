@@ -1,9 +1,9 @@
 
 export default function Header() {
   return (
-    <div>
+    <div className="bg-black">
     <div className="flex h-screen flex-col items-center justify-center relative">
-    <div className="absolute top-0 left-0 w-full h-full bg-[url('../Images/background_1.png')] bg-cover bg-center">
+    <div className="absolute top-0 left-0 w-full h-full bg-[url('../Images/background_1_compress.png')] bg-cover bg-center">
     <video className="w-full h-full object-cover object-center" src="Videos/Cover.mp4" autoPlay loop muted></video>
     <div className="absolute top-0 left-0 w-full h-full opacity-80 bg-linear-to-t from-black to-transparent"></div>
     </div>
