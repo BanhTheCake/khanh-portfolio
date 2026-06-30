@@ -1,5 +1,5 @@
 import AiIcon from "/Images/IconAi.svg"
-
+import {motion} from 'framer-motion'
 const Images = [{
     src: "Images/buffalo_calf.png",
     alt: "Con Nghê",
@@ -15,7 +15,6 @@ const Images = [{
     title: "Con Rồng",
     isCenter: false
 }, {
-}, {
     src: "Images/Phonix.png",
     alt: "Con Phượng",
     position: "left",
@@ -26,7 +25,7 @@ const Images = [{
 
 export default function ProjectOne_2() {
   return (
-    <div className="bg-black px-20 py-10">
+    <div className="bg-black px-5 md:px-20 py-5 md:py-10">
     <div className="w-full max-w-360 mx-auto ">
     <div className="flex flex-col items-center  font-UTM text-white ">
             <h1 className="text-3xl text-center pb-4 uppercase">The Illustration </h1>
@@ -38,21 +37,25 @@ export default function ProjectOne_2() {
     <div className="relative flex flex-col items-center w-full">
             <div className="absolute top-0 left-0 w-full h-full bg-[url('../Images/background_2.png')] bg-contain  bg-top opacity-10 z-0 "></div>
             {Images && Images.map((image, index) => (
-                <div className={`flex ${image.isCenter ? "items-center" : "items-end"} justify-center py-10 gap-20 ${image.position === "right" ? "flex-row-reverse" : ""} z-1`} key={index}>
-                    <div className={`flex-3 flex`}>
+                <div className={`flex flex-col md:flex-row ${image.isCenter ? "md:items-center" : "md:items-end"} justify-center py-5 md:py-10 gap-10  md:gap-20 ${image.position === "right" ? "md:flex-row-reverse" : ""} z-1`} key={index}>
+                    <motion.div  whileHover={{
+                        scale: 1.1
+                    }} className={`flex-3 flex`}>
                         <img className="h-full" src={image.src} alt={image.alt} />
-                    </div>
-                    <div className={`flex-2 flex flex-col justify-center `}>
-                    <h1 className={`font-UTM text-white text-3xl text-center pb-5 uppercase`}>{image.title}</h1>
-                    <p className={`font-UTM text-white text-base `}>{image.text}</p>
+                    </motion.div>
+                    <div className={`flex-2 flex flex-col justify-center px-5 md:px-0 `}>
+                        <h1 className={`font-UTM text-white text-3xl text-center pb-5 uppercase`}>{image.title}</h1>
+                        <p className={`font-UTM text-white text-base `}>{image.text}</p>
                     </div>
                 </div>
             ))}
-                <div className={`flex flex-col items-end justify-center py-10 gap-20 max-w-180`}>
-                    <div className={`flex-3 flex`}>
+                <div className={`flex flex-col items-end justify-center py-10 gap-20 max-w-180 relative z-1`}>
+                    <motion.div whileHover={{
+                        scale: 1.1
+                    }} className={`flex-3 flex`}>
                         <img className="h-full" src="Images/Tiger.png" alt="Hổ Phù" />
-                    </div>
-                    <div className={`flex-2 flex flex-col justify-center `}>
+                    </motion.div>
+                    <div className={`flex-2 flex flex-col justify-center px-5 md:px-0`}>
                     <h1 className={`font-UTM text-white text-3xl text-center pb-5`}>Hổ Phù</h1>
                     <p className={`font-UTM text-white text-base `}>The image of Ho Phu is a traditional decorative motif often found in Nguyen Dynasty architecture and art. It symbolizes protection, strength, and the ability to ward off evil spirits. With its fierce expression and detailed design, Ho Phu reflects the power and spiritual beliefs of Vietnamese culture while adding a strong visual identity to traditional artworks.</p>
                     </div>

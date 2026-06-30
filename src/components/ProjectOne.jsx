@@ -28,10 +28,10 @@ const MonthImages = [{
 export default function ProjectOne() {
   return (
     <div className="bg-black">
-        <div className="w-full max-w-360 mx-auto font-UTM text-white p-10 text-3xl uppercase tracking-wide">
-            <h1>Project 1: Hue Dynasty Illustration</h1>
-            <div className="flex py-10 px-2 gap-6">
-                <div className="flex-2 flex justify-end items-center">
+        <div className="w-full max-w-360 mx-auto font-UTM text-white p-5 md:p-10 text-2xl md:text-3xl uppercase tracking-wide">
+            <h1 className="px-5 md:px-0">Project 1: Hue Dynasty Illustration</h1>
+            <div className="flex flex-col md:flex-row py-10 px-2 gap-6">
+                <div className="flex-2 flex justify-center md:justify-end items-center pb-10 md:pb-0">
                 <PhotoView src="Images/Month_Cover.png">
                     <img className="h-120" src="Images/Month_Cover.png" alt="Month Cover" />
                 </PhotoView>
@@ -39,7 +39,7 @@ export default function ProjectOne() {
                 <div className="flex flex-3 flex-wrap gap-6 items-center justify-center">
                 {MonthImages && MonthImages.map((image, index) => (
                     <PhotoView key={index} src={image.src}>
-                        <img className="h-60" src={image.src} alt={image.alt} />
+                        <img className="h-120 md:h-60" src={image.src} alt={image.alt} />
                     </PhotoView>
                 ))}
                 </div>

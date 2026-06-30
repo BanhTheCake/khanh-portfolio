@@ -12,13 +12,13 @@ const videoGallery = [
 
 export default function ProjectTwo_2() {
   return (
-    <div className="bg-black px-20 py-5">
+    <div className="bg-black px-10 md:px-20 md:py-5">
         <div className="w-full max-w-360 mx-auto ">
-        <div className="flex flex-col items-center  font-UTM text-white ">
-                <div className="flex items-center gap-5 w-full max-w-200 pb-4">
-                <div className="h-1 border-2 bg-white opacity-30 flex-1"></div>
-                <h1 className="text-3xl text-center uppercase">The Concept Illustration </h1>
-                <div className="h-1 border-2 bg-white opacity-30 flex-1"></div>
+        <div className="flex flex-col items-center font-UTM text-white ">
+                <div className="flex items-center justify-center gap-5 w-full max-w-200 pb-4">
+                <div className="h-1 border-2 bg-white opacity-30 flex-1 hidden md:block"></div>
+                <h1 className="text-2xl md:text-3xl text-center uppercase ">The Concept Illustration </h1>
+                <div className="h-1 border-2 bg-white opacity-30 flex-1 hidden md:block"></div>
                 </div>
                 <div className="flex items-center gap-2">
                 <p className="text-2xl">App Used :</p>
@@ -27,8 +27,8 @@ export default function ProjectTwo_2() {
                 <img className="w-12" src={AeIcon} alt="AE" />
                 </div>
         </div>
-          <div className="relative flex items-center w-full text-white font-UTM py-10 gap-5">
-            <div className="flex-3 flex flex-col items-center gap-10">
+          <div className="relative flex flex-col md:flex-row items-center w-full text-white font-UTM py-5 md:py-10 gap-5">
+            <div className="flex-3 flex flex-col items-center gap-2 md:gap-10">
               <img className="w-full" src="Images/NgoMon.png" alt="Concept 2" />
               <p className="text-center text-sm uppercase">Illustration for state concept</p>
             </div>
@@ -40,20 +40,20 @@ export default function ProjectTwo_2() {
           <div className="flex flex-wrap relative">
           <div className="absolute bottom-[-15%] left-0 w-full h-full opacity-50 bg-contain bg-top-left bg-[url('../Images/MountainCover.png')] hidden md:block"></div>
           { videoGallery && videoGallery.map((video, _) => (
-            <div className="relative flex p-10 md:flex-1/2" key={video.src}>
-              <video className="z-1" src={video.video} autoPlay loop muted></video>
+            <div className="relative flex p-5 md:p-10 md:flex-1/2" key={video.src}>
+              <video className="z-1" src={video.video} autoPlay loop muted controls />
               </div>
           ))}
           </div>
           <p className="text-sm uppercase text-center text-white font-UTM">Illustration for visual led concept</p>
-          <div className="flex flex-col items-center  font-UTM text-white py-10">
-                <div className="flex items-center gap-5 w-full max-w-200 pb-4">
-                <div className="h-1 border-2 bg-white opacity-30 flex-1"></div>
+          <div className="flex flex-col items-center  font-UTM text-white py-5 md:py-10">
+                <div className="flex items-center justify-center gap-5 w-full max-w-200 pb-4">
+                <div className="h-1 border-2 bg-white opacity-30 flex-1 hidden md:block"></div>
                 <h1 className="text-2xl text-center uppercase">Visual Led Concept "Tú Quý Quang Hoa" </h1>
-                <div className="h-1 border-2 bg-white opacity-30 flex-1"></div>
+                <div className="h-1 border-2 bg-white opacity-30 flex-1 hidden md:block"></div>
                 </div>
                 <div className="flex items-center gap-2 max-w-150 py-5">
-                <p>The overall visual concept is inspired by the elegance of four Hue maidens and the Four Noble Plants—Apricot Blossom (Mai), Bamboo (Trúc), Chrysanthemum (Cúc), and Pine (Tùng). Each visual represents a unique virtue and beauty, reflecting the harmony between nature, culture, and the spirit of Hue. By combining traditional Vietnamese aesthetics, Nguyen Dynasty architectural elements, and modern visual effects, the LED stage creates a poetic journey that celebrates the timeless charm, grace, and cultural heritage of the ancient capital.</p>
+                <p className="px-5 md:px-0">The overall visual concept is inspired by the elegance of four Hue maidens and the Four Noble Plants—Apricot Blossom (Mai), Bamboo (Trúc), Chrysanthemum (Cúc), and Pine (Tùng). Each visual represents a unique virtue and beauty, reflecting the harmony between nature, culture, and the spirit of Hue. By combining traditional Vietnamese aesthetics, Nguyen Dynasty architectural elements, and modern visual effects, the LED stage creates a poetic journey that celebrates the timeless charm, grace, and cultural heritage of the ancient capital.</p>
                 </div>
         </div>
         <div className="max-w-300 mx-auto text-white font-UTM">
@@ -61,7 +61,7 @@ export default function ProjectTwo_2() {
           <img className="w-full z-1 relative" src="Images/House.png" alt="Visual Concept" />
           <video className="absolute top-[50%] left-[25%] w-[50%]  object-cover object-center" src="Videos/Project2_5.mp4" autoPlay loop muted />
         </div>
-          <p className="text-center text-sm uppercase py-2">Mockup for visual led concept</p>
+          <p className="text-center text-sm uppercase py-5 md:py-2">Mockup for visual led concept</p>
         </div>
         <ProjectTwo_3 />
         </div>

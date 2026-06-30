@@ -3,9 +3,9 @@ export default function ProjectTwo() {
   return (
     <div className="bg-black">
         <div className="bg-white h-1.5 mx-10 border-2 opacity-30"></div>
-        <div className="w-full max-w-360 mx-auto font-UTM text-white p-10 text-3xl uppercase tracking-wide ">
-            <h1 className="py-5">Project 2: Team Project Event "Tứ Quý Quang Hoa"</h1>
-            <div className="flex py-10 px-2 gap-6 items-center
+        <div className="w-full max-w-360 mx-auto font-UTM text-white p-5 md:p-10 text-2xl md:text-3xl uppercase tracking-wide ">
+            <h1 className="py-5 px-5 md:px-0">Project 2: Team Project Event "Tứ Quý Quang Hoa"</h1>
+            <div className="flex flex-col md:flex-row py-5 md:py-10 px-5 md:px-2 gap-10 md:gap-6 items-center
             ">
                 <div className="flex-3 flex flex-col items-center gap-10">
                     <img className="" src="Images/Project2_Title.png" alt="Tứ Quý Quang Hoa" />

@@ -18,3 +18,9 @@
     --font-UTM: 'UTM_Amerika_Sans', sans-serif;
     --font-starifeDemo: 'StarifeDemo', sans-serif;
 }
+
+body {
+    @apply bg-black;
+    @apply overflow-x-hidden;
+    @apply w-screen;
+}
