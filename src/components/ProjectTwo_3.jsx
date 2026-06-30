@@ -21,7 +21,7 @@ export default function ProjectTwo_3() {
     <div className="flex flex-col md:flex-row items-center gap-10 font-UTM text-white pb-5">
         <div className="flex-3 -mt-10 sm:-mt-30">
             <img className="w-full" src="Images/Gate.png" alt="Cổng chào" />
-            <p className="text-center uppercase -mt-25 md:-mt-15 xl:-mt-20">ILLUSTRATION FOR GATE CONCEPT</p>
+            <p className="text-center uppercase md:-mt-15 xl:-mt-20">ILLUSTRATION FOR GATE CONCEPT</p>
         </div>
         <div className="flex-2 flex flex-col gap-5">
             <h1 className="text-2xl uppercase">Gate Concept "Tứ Quý Quang Hoa"</h1>
