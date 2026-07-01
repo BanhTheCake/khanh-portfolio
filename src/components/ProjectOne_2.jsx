@@ -5,21 +5,21 @@ const Images = [{
     alt: "Con Nghê",
     position: "left",
     text: "The image of the Nghe, a traditional Vietnamese mythical creature, is an important symbol in Nguyen Dynasty art and architecture. It represents loyalty, protection, wisdom, and good fortune. With its graceful appearance and unique decorative details, the Nghe reflects the richness of Vietnamese cultural heritage while conveying a sense of dignity and harmony.",
-    title: "Con Nghê",
+    title: "Nghê",
     isCenter: false
 }, {
     src: "Images/Dragon.png",
     alt: "Con Rồng",
     position: "right",
     text: "The image of the Dragon (Long) is one of the most important symbols in Vietnamese culture, especially during the Nguyen Dynasty. It represents power, prosperity, wisdom, and imperial authority. With its elegant curves and intricate patterns, the dragon reflects the beauty of traditional Vietnamese art and the rich heritage of the royal court.",
-    title: "Con Rồng",
+    title: "Long",
     isCenter: false
 }, {
     src: "Images/Phonix.png",
-    alt: "Con Phượng",
+    alt: "Con Phụng",
     position: "left",
     text: "The image of the Phoenix (Phung) is a symbol of beauty, grace, peace, and prosperity in Vietnamese culture. In Nguyen Dynasty art, the phoenix often represents nobility and harmony. Its elegant feathers and delicate patterns showcase the sophistication of traditional Vietnamese craftsmanship and cultural heritage.",
-    title: "Con Phùng",
+    title: "Phụng",
     isCenter: true
 }]
 
@@ -56,7 +56,7 @@ export default function ProjectOne_2() {
                         <img className="h-full" src="Images/Tiger.png" alt="Hổ Phù" />
                     </motion.div>
                     <div className={`flex-2 flex flex-col justify-center px-5 md:px-0`}>
-                    <h1 className={`font-UTM text-white text-3xl text-center pb-5`}>Hổ Phù</h1>
+                    <h1 className={`font-UTM text-white text-3xl text-center pb-5 uppercase`}>Hổ Phù</h1>
                     <p className={`font-UTM text-white text-base `}>The image of Ho Phu is a traditional decorative motif often found in Nguyen Dynasty architecture and art. It symbolizes protection, strength, and the ability to ward off evil spirits. With its fierce expression and detailed design, Ho Phu reflects the power and spiritual beliefs of Vietnamese culture while adding a strong visual identity to traditional artworks.</p>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ export default function Information() {
         <div className="w-full max-w-280 mx-auto font-UTM text-white pt-10 md:px-10">
             <div className="flex flex-col md:flex-row items-center gap-5 pb-5 md:pb-10">
               <div className="flex shrink-0 items-center justify-center overflow-hidden">
-                <img className=" h-80 md:h-100 rounded-md" src="Images/Information.jpg" alt="Ảnh Đại Diện" />
+                <img className=" h-80 md:h-100 rounded-md" src="Images/Information_2.JPG" alt="Ảnh Đại Diện" />
               </div>
               <div className=" flex flex-col gap-5 px-10">
                 <div className="flex flex-col gap-3 pb-2">
@@ -48,8 +48,8 @@ export default function Information() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-3 pb-2 px-10 md:px-0">
-                  <h1 className="text-3xl">Contact me</h1>
-                   <div className="flex border-2 p-3 rounded-xl border-white/80 md:items-center md:justify-between flex-col md:flex-row gap-3 ">
+                  <h1 className="text-3xl md:hidden">Contact me</h1>
+                   <div className="flex border-2 md:border-0 md:py-0 p-3 rounded-xl border-white/80 md:items-center md:justify-between flex-col md:flex-row gap-3 ">
                     <div className="flex items-center gap-2">
                      <img className="w-8" src={"Images/tel.png"} alt="Số điện thoại" />
                       <p> 091 302 9417 </p>
