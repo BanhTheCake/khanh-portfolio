@@ -2,6 +2,7 @@ import AiIcon from "/Images/IconAi.svg"
 import PsIcon from "/Images/IconPs.svg"
 import AeIcon from "/Images/IconAe.svg"
 import ProjectTwo_3 from "./ProjectTwo_3"
+import { motion } from 'framer-motion'
 
 const videoGallery = [
   { video: "Videos/Project2_1.mp4", src: "Images/Apricot.png", alt: "Cây Mai" },
@@ -46,7 +47,7 @@ export default function ProjectTwo_2() {
           ))}
           </div>
           <p className="text-sm uppercase text-center text-white font-UTM">Illustration for visual led concept</p>
-          <div className="flex flex-col items-center  font-UTM text-white py-5 md:py-10">
+          <div className="flex flex-col items-center  font-UTM text-white py-5 md:py-10 relative z-1">
                 <div className="flex items-center justify-center gap-5 w-full max-w-200 pb-4">
                 <div className="h-1 border-2 bg-white opacity-30 flex-1 hidden md:block"></div>
                 <h1 className="text-2xl text-center uppercase">Visual Led Concept "Tú Quý Quang Hoa" </h1>
@@ -57,7 +58,10 @@ export default function ProjectTwo_2() {
                 </div>
         </div>
         <div className="max-w-300 mx-auto text-white font-UTM">
+        
         <div className="relative">
+        <motion.div whileInView={{ opacity: "50%" }} initial={{ opacity: 0 }} viewport={{ once: true }} transition={{ duration: 3, ease: "backInOut" }}
+          className="absolute bottom-[5%] scale-[2] left-0 w-full h-full opacity-50 bg-contain bg-top-left bg-[url('../Images/MountainCover.png')] hidden md:block"></motion.div>
           <img className="w-full z-1 relative" src="Images/House.png" alt="Visual Concept" />
           <video className="absolute top-[50%] left-[25%] w-[50%]  object-cover object-center" src="Videos/Project2_5.mp4" autoPlay loop muted />
         </div>

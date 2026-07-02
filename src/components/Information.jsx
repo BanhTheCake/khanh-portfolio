@@ -16,7 +16,7 @@ export default function Information() {
                   <div className="flex border-2 p-3 rounded-xl border-white/80">
                     <p>Hi, Im Khánh, 23 years old Illustrator living in Da Nang city.
                         I create art for games, illustration visual led, etc. I love drawing,
-                        creating things about Vietnamese culture. |</p>
+                        creating things about Vietnamese culture.</p>
                   </div>
                 </div>
                 <div className="flex flex-col gap-3 pb-2">
@@ -56,7 +56,7 @@ export default function Information() {
                     </div>
                     <div className="flex items-center gap-2">
                      <img className="w-8" src={"Images/gmail.png"} alt="Instagram" />
-                      <p>Instagram: <a className="text-purple-400" href="https://instagram.com" target="_blank">_Kainlee_</a></p>
+                      <p>Instagram: <a className="text-purple-400" href="https://www.instagram.com/_kainlee_" target="_blank">_Kainlee_</a></p>
                     </div>
                     <div className="flex items-center gap-2">
                      <img className="w-8" src={"Images/mail.png"} alt="Gmail" />
